@@ -47,7 +47,7 @@
 
 .Details .container-text {
     width: 45%;
-    color: #fff9;
+    /* color: #fff9; */
     margin: 2rem 0 2.6rem;
     line-height: 1.7;
 }
@@ -78,13 +78,13 @@
 .Details h4,
 .Details h3 {
     font-weight: 500;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .Details .child a {
     text-decoration: none;
     margin-top: 20px;
-    color: #fff;
+    /* color: #fff; */
     width: 100%;
 }
 .Details .child a:hover {
