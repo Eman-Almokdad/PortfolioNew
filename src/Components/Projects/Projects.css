@@ -1,0 +1,101 @@
+.Projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Projects h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+    color: gray;
+    line-height: 1.7;
+}
+
+.Projects h2 {
+    margin-bottom: 3rem;
+    color: #4db5ff;
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
+
+.Projects .portfolio-container {
+    grid-gap: 2.5rem;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Projects .portfolio-item {
+    background: #2c2c6c;
+    border: 1px solid #2c2c6c;
+    border-radius: 2rem;
+    padding: 1.3rem;
+    transition: all 0.4s ease;
+}
+
+.Projects .portfolio-item:hover {
+    background: #0000;
+    border-color: #4db5ff;
+    /*  */
+}
+
+.Projects .portfolio-image {
+    border-radius: .3rem;
+    height: 280px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.Projects .portfolio-image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.Projects .portfolio-item h3 {
+    margin: 1.2rem 0 2rem;
+    font-weight: 500;
+    /* color: #fff; */
+}
+
+.Projects .portfolio-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .6rem;
+}
+
+.Projects .portfolio-cta .btn {
+    border: 1px solid #4db5ff;
+    border-radius: .6rem;
+    color: #4db5ff;
+    cursor: pointer;
+    padding: .75rem 1.2rem;
+    transition: all .4s ease;
+    width: max-content;
+    text-decoration: none;
+}
+
+.Projects .portfolio-cta .btn-primary {
+    background: #4db5ff;
+}
+
+.Projects .portfolio-cta .btn-primary,
+.Projects .portfolio-cta .btn:hover {
+    color: #1f1f38;
+}
+
+.Projects .portfolio-cta .btn:hover {
+    background: #fff;
+    border-color: #0000;
+}
+
+.Projects .portfolio-cta a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
+    .Projects .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}

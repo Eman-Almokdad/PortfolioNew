@@ -1,0 +1,64 @@
+.skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+    color: gray;
+    line-height: 1.7;
+}
+
+.skills h2 {
+    margin-bottom: 3rem;
+    color: #4db5ff;
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
+
+.skills .container {
+    width: 100%;
+    background: #2c2c6c;
+    border:1px solid #2c2c6c;
+    border-radius: 2rem;
+    padding: 2.4rem 2rem;
+    transition: all 0.4s ease;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.skills .container:hover {
+    background: #0000;
+    border-color: #4db5ff;
+}
+
+.skills .container div {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    flex-grow: 0;
+}
+
+.skills .container svg {
+    color: #4db5ff;
+    min-width: 16px;
+}
+
+.skills .container h4 {
+    font-weight: 500;
+    /* color: #fff; */
+}
+
+@media screen and (max-width:767px) {
+    .skills .container div {
+        width: 45%;
+    }
+}

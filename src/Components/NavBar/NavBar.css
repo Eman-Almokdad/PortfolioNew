@@ -1,0 +1,39 @@
+nav{
+    backdrop-filter: blur(15px);
+    background: #0000004d;
+    border-radius: 3rem;
+    bottom: 2rem;
+    gap: 0.8rem;
+    left: 50%;
+    padding: 0.7rem 1.7rem;
+    position: fixed;
+    transform: translateX(-50%);
+    width: max-content;
+    z-index: 2;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.8rem;
+    text-decoration: none;
+    list-style: none;
+    width: max-content;
+}
+nav li{
+    width: 2.875rem;
+    padding: 0.9rem;
+    transition: all 0.4s ease;
+    border-radius: 50%;
+}
+nav li a{
+    font-size: 1.1rem;
+    color: #fff
+}
+nav li:hover{
+    background-color: #4db5ff;
+}
+
+@media screen and (max-width:992px) {
+
+}

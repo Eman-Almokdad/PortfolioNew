@@ -1,0 +1,76 @@
+.About {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.About h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+    color: gray;
+    line-height: 1.7;
+}
+
+.About h2 {
+    margin-bottom: 3rem;
+    color: #4db5ff;
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
+
+.About .container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.About .about-me {
+    background: linear-gradient(45deg, #0000, #4db5ff, #0000);
+    border-radius: 2rem;
+    width: 35%;
+}
+
+.About .container-img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 0.4s ease;
+}
+
+.About .container-img:hover {
+    transform: rotate(0);
+}
+
+.About .container-img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.About .container-text {
+    width: 50%;
+    /* color: #fff9; */
+    margin: 2rem 0 2.6rem;
+    line-height: 1.7;
+}
+
+@media screen and (max-width:767px) {
+    .About .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .About .about-me {
+        min-width: 200px;
+        /* margin: 0 auto 3rem; */
+    }
+
+    .About .container-text {
+        width: 100%;
+    }
+}

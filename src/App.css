@@ -1,0 +1,29 @@
+body {
+
+ /*  background: #1f1f38; */
+  /* background: #adb4be; */
+  /* background-image: url(./../src/assets/img/تنزيل.png); */
+  /* line-height: 1.7; */
+}
+
+.space {
+  padding: 0rem 5.625rem;
+  margin-top: 8rem;
+}
+.dark{
+  background-color: #1f1f38;
+  background-image: url(./../src/assets/img/تنزيل.png);
+  color: white ;
+  
+
+}
+.light{
+  background-color: #fff9;
+  background-image: url(./../src/assets/img/تنزيل.png);
+  color: #1f1f38;
+}
+@media screen and (max-width:767px) {
+  .space {
+    padding: 0rem 9px;
+  }
+}

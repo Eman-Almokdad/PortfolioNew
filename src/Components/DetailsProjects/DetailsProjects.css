@@ -1,0 +1,108 @@
+.Details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.Details .container {
+    width: 100%;
+    background: #2c2c6c;
+    border: 1px solid #2c2c6c;
+    border-radius: 2rem;
+    padding: 2.4rem 2rem;
+    transition: all 0.4s ease;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+.Details .container:hover {
+    background: #0000;
+
+}
+
+.Details .about-me {
+    border-radius: 2rem;
+    width: 50%;
+}
+
+.Details .container-img {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.Details .container-img img {
+    object-fit: cover;
+    width: 45%;
+}
+
+.Details .container-text {
+    width: 45%;
+    color: #fff9;
+    margin: 2rem 0 2.6rem;
+    line-height: 1.7;
+}
+
+.Details .child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.Details .child div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    flex-grow: 0;
+}
+
+.Details .container svg {
+    color: #4db5ff;
+    min-width: 16px;
+}
+
+.Details h4,
+.Details h3 {
+    font-weight: 500;
+    color: #fff;
+}
+
+.Details .child a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+}
+.Details .child a:hover {
+    color: #4db5ff;
+    
+}
+@media screen and (max-width:992px) {
+    .Details .container-img {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Details .container-img img {
+        width: 80%;
+    }
+    .Details .about-me {
+        width: 100%;
+    }
+    .Details .container-text{
+        width: 100%;
+    }
+}

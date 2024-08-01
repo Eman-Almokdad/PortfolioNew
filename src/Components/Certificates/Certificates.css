@@ -1,0 +1,60 @@
+.Certificates {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.Certificates h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+    color: gray;
+    line-height: 1.7;
+}
+
+.Certificates h2 {
+    margin-bottom: 3rem;
+    color: #4db5ff;
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
+
+.Certificates .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.Certificates .container .cards {
+    width: 100%;
+    background: #2c2c6c;
+    border: 1px solid #2c2c6c;
+    border-radius: 2rem;
+    padding: 2.4rem 2rem;
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.Certificates .cards:hover {
+    background: #0000;
+    border-color:  #4db5ff;
+}
+.Certificates .container p{
+    font-size: 0.83rem;
+    font-weight: bold;
+    color: #4db5ff;
+
+}
+.Certificates .container h3{
+    font-size: 1rem;
+    font-weight: bold;
+    /* color: white; */
+    line-height: 1.7;
+    text-align: center;
+}

@@ -1,0 +1,139 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0rem 4.375rem;
+    padding-top: 60px;
+
+}
+
+.hero .container {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero h1,
+.hero h3 {
+    /* color: white; */
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero p {
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+}
+
+.hero h3 {
+    font-size: 0.83rem;
+}
+
+.hero h1 {
+    line-height: 1.7;
+}
+
+.hero .btn {
+    border: 1px solid #4db5ff;
+    color: #4db5ff;
+    border-radius: .6rem;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    width: max-content;
+}
+
+.hero .container .btn a {
+    text-decoration: none;
+
+}
+
+.hero .container .btn:hover {
+    color: #1f1f38 !important;
+    background: #fff;
+    border-color: #fff;
+}
+
+.hero .container .btn a:hover {
+    color: #1f1f38;
+}
+
+.hero .hero-socials {
+    align-items: center;
+    bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    left: 5.625rem;
+    position: absolute;
+}
+
+.hero .hero-socials svg {
+    color: #4db5ff;
+}
+
+.hero .hero-socials svg:hover {
+    color: #fff;
+}
+
+.hero .hero-socials::after {
+    background: #4db5ff;
+    content: "";
+    height: 2rem;
+    width: 1px;
+}
+
+.imgContainer,
+.scroll-down {
+    position: absolute;
+}
+
+.hero .imgContainer {
+    background: linear-gradient(#4db5ff, #0000);
+    border-radius: 12rem 12rem 0 0;
+    height: 20rem;
+    left: calc(50% - 11rem);
+    bottom: 0;
+    margin-top: 2rem;
+    padding: 2rem 1rem 1rem;
+    width: 22rem;
+    overflow-y: hidden;
+}
+
+.hero .imgContainer img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.hero .scroll-down {
+    bottom: 5rem;
+    font-size: .9rem;
+    font-weight: 300;
+    right: 5.625rem;
+    transform: rotate(90deg);
+    text-decoration: none;
+    color: #4db5ff;
+}
+
+.hero .scroll-down:hover {
+    color: #fff;
+}
+
+@media screen and (max-width:992px) {
+    .hero .hero-socials {
+        left: 1.375rem;
+    }
+
+    .hero .scroll-down {
+        right: 0.5rem;
+    }
+}

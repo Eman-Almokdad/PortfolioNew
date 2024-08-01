@@ -1,0 +1,95 @@
+.Contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.Contact h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+    color: gray;
+    line-height: 1.7;
+}
+
+.Contact h2 {
+    margin-bottom: 3rem;
+    color: #4db5ff;
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
+.Contact .container {
+    width: 100%;
+/*     grid-gap: 2.5rem; */
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Contact .container .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 15px;
+}
+.Contact .left div{
+    width: 250px;
+    background: #2c2c6c;
+    border: 1px solid #0000;
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+    text-align: center;
+    transition:  all 0.4s ease;
+}
+.Contact .left div:hover {
+    background: #0000;
+    border-color: #4db5ff;
+    /*  */
+}
+.Contact .left svg {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    /* color: #fff; */
+}
+.Contact .left h4 , .Contact .left h5{
+    font-weight: 500;
+    /* color: #fff; */
+}
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+.Contact form input,.Contact form textarea {
+    background: #0000;
+    border: 1px solid #4db5ff66;
+    border-radius: .8rem;
+    color: #fff;
+    padding: 1.5rem;
+    resize: none;
+    width: 100%;
+}
+.Contact .btn {
+    border: 1px solid #4db5ff;
+    color: #1f1f38;
+    border-radius: .6rem;
+    background-color:#4db5ff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    width: max-content;
+}
+.Contact .btn:hover {
+    color: #1f1f38 !important;
+    background: #fff;
+    border-color: #fff;
+}
+@media screen and (max-width:767px) {
+    .Contact .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

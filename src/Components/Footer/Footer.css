@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #4db5ff;
+}
+.footer .social  {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.footer p{
+    font-size: 1.5rem;
+}
+.footer .social a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .5rem;
+    width: .5rem;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 3rem 1.5rem 3rem 0;
+}
