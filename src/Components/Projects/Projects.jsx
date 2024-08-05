@@ -2,6 +2,7 @@ import './Projects.css'
 
 import { Link } from 'react-router-dom'
 import { details } from '../product'
+import Slider from './Slider'
 const Projects = () => {
     
     return (
@@ -9,7 +10,8 @@ const Projects = () => {
             <h5>My Recent Projects</h5>
             <h2>Portfolio</h2>
             <div className="container portfolio-container">
-                {details.map((element, index) => {
+<Slider slides={details}/>
+                {/* {details.map((element, index) => {
                     return (
                         <div className="portfolio-item" key={index}>
                             <div className="portfolio-image">
@@ -22,7 +24,7 @@ const Projects = () => {
                             </div>
                         </div>
                     )
-                })}
+                })} */}
 
 
             </div>

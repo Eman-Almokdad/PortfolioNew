@@ -5,7 +5,7 @@
     justify-content: start;
     flex-direction: column;
     padding: 0rem 4.375rem;
-    padding-top: 60px;
+    padding-top: 2.5rem;
 
 }
 
@@ -98,7 +98,7 @@
 .hero .imgContainer {
     background: linear-gradient(#4db5ff, #0000);
     border-radius: 12rem 12rem 0 0;
-    height: 20rem;
+    height: 19rem;
     left: calc(50% - 11rem);
     bottom: 0;
     margin-top: 2rem;
@@ -125,7 +125,7 @@
 }
 
 .hero .scroll-down:hover {
-    color: #fff;
+    color: gray;
 }
 
 @media screen and (max-width:992px) {

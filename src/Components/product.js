@@ -33,7 +33,7 @@ export const details = [
         "description": 'A multi-page website that sells healthy foods and many services ',
         "imgs": [imgfood, food2, food3, food4, food5, food6],
         "urlgh": 'https://github.com/Eman-Almokdad/healthy-food-website',
-        "tools": ["nextjs", " Mongodb", "React", "css", "html"],
+        "tools": ["Nextjs ", " Mongodb ", "Reactjs ", "CSS ", "HTML"],
     },
     {
         img: imgtravel,
@@ -43,7 +43,7 @@ export const details = [
         "description": 'A multi-page website that sells displaying and selling trips ',
         "imgs": [imgtravel, travel2, travel3, travel4],
         "urlgh": 'https://github.com/Eman-Almokdad/react1',
-        "tools": [" React", "css ", "html"],
+        "tools": [" Reactjs ", "CSS ", "HTML"],
     },
     {
         img: imgfurniture,
@@ -53,7 +53,7 @@ export const details = [
         "description": 'A single-page website for displaying and selling furniture',
         "imgs": [imgfurniture, furniture2, furniture3, furniture4],
         "urlgh": 'https://github.com/Eman-Almokdad/task5',
-        "tools": ["css", "html"],
+        "tools": ["CSS ", "HTML"],
     },
 
 ]

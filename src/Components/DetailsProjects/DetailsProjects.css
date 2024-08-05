@@ -23,7 +23,12 @@
 
 .Details .container:hover {
     background: #0000;
+    
 
+}
+.Details .container:hover .container-text{
+    color: var(--hover);
+    
 }
 
 .Details .about-me {
@@ -47,15 +52,19 @@
 
 .Details .container-text {
     width: 45%;
-    /* color: #fff9; */
+    color: #fff9;
     margin: 2rem 0 2.6rem;
     line-height: 1.7;
+/*     display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column; */
 }
 
 .Details .child {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: start;
     gap: 10px;
     flex-direction: column;
@@ -81,17 +90,40 @@
     /* color: #fff; */
 }
 
-.Details .child a {
+.Details .btn {
+    border: 1px solid #4db5ff;
+    border-radius: .6rem;
+    color: #4db5ff;
+    cursor: pointer;
+    padding: .75rem 1.2rem;
+    transition: all .4s ease;
     text-decoration: none;
-    margin-top: 20px;
-    /* color: #fff; */
-    width: 100%;
+    background: #4db5ff;
+    
 }
+
+
+
+.Details .btn-primary,
+.Details .btn:hover {
+    color: #1f1f38;
+}
+
+.Details .btn:hover {
+    background: #fff;
+    border-color: #0000;
+}
+
+
 .Details .child a:hover {
     color: #4db5ff;
     
 }
 @media screen and (max-width:992px) {
+    .Details .child{
+        align-items: center;
+        
+    }
     .Details .container-img {
         flex-direction: column;
         justify-content: center;
@@ -104,5 +136,14 @@
     }
     .Details .container-text{
         width: 100%;
+
     }
+    .Details h4,
+.Details h3 {
+    text-align: center;
+}
+.Details .child div {
+    
+    justify-content: center;
+}
 }

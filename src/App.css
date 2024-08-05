@@ -3,20 +3,21 @@
   margin-top: 8rem;
 }
 
-.dark {
-  background-color: #1f1f38;
 
-  color: white;
-
-
-}
 
 .light {
-  background-color: #fff9;
-
+  background-color: #d1eafc;
+  background-image: url(./../src/assets/img/تنزيل.png);
   color: #1f1f38;
+  --hover: #1f1f38;
 }
+.dark {
+  background-color: #1f1f38;
+  background-image: url(./../src/assets/img/تنزيل.png);
+  color: white;
+  --hover: white;
 
+}
 body {
   background-image: url(./../src/assets/img/تنزيل.png);
 
