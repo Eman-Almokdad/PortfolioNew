@@ -7,6 +7,7 @@ import HomePage from './Components/HomePage'
 function App() {
 
   return (
+    
     <>
       <Routes>
       <Route path="/" element={<HomePage/>} />

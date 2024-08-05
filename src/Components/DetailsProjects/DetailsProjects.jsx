@@ -3,16 +3,19 @@ import { useParams } from 'react-router-dom';
 import { details } from '../product';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
+import { useTheme } from '../HomePage';
 const DetailsProjects = () => {
-    /*   const { darkMode } = useTheme(); */
+    const theme = useTheme();
+    console.log(theme);
+    const { darkMode } = theme || {};
     const { id } = useParams();
     const card = details.find(card => card.id === parseInt(id));
     const imgArray = card.imgs
     const skillsarray = card.tools
 
     return (
-        <>
-            <div className={`  , Details , space  `} >
+        <div className={` ${darkMode ? 'dark' : 'light'}  , pt-128 `}>
+            <div className={`  , Details ,  `} >
                 <div className='container'>
                     <div className='about-me'>
                         <div className='container-img'>
@@ -46,7 +49,7 @@ const DetailsProjects = () => {
             </div>
             <Projects />
             <Footer />
-        </>
+        </div>
     )
 }
 
