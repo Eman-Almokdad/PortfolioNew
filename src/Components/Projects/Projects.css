@@ -41,7 +41,8 @@
     /*  */
 }
 
-.Projects .portfolio-item:hover h3 {
+
+.Projects .portfolio-item:hover h3,.Projects .portfolio-item:hover h4 {
     color: var(--hover);
 }
 
