@@ -3,7 +3,8 @@ import { useParams } from 'react-router-dom';
 import { details } from '../product';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
-import { useTheme } from '../HomePage';
+import { useTheme } from '../ThemeProvider';
+
 const DetailsProjects = () => {
     const theme = useTheme();
     console.log(theme);

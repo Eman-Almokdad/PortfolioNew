@@ -1,12 +1,10 @@
 import './Hero.css'
 /* import cv from './../../../public/Eman-CV.pdf' */
 import photo from '../../assets/img/photo.png'
-import linkedin from '../../assets/img/linkedin.svg'
-import github from '../../assets/img/github.svg'
-import { useState } from 'react'
-import { useTheme } from '../HomePage'
+
+import { useTheme } from '../ThemeProvider'
+
 const Hero = ({Dark , Light}) => {
-    const [first, setfirst] = useState(false)
     const { darkMode, toggleTheme } = useTheme();
     return (
         <div className='hero' id='Home'>
