@@ -10,16 +10,32 @@ import Footer from './Footer/Footer'
 import LogoDark from '../assets/img/dark.svg'
 import LogoLight from '../assets/img/light.svg'
 import { ThemeProvider, useTheme } from './ThemeProvider'
+import { useEffect, useState } from 'react'
 const HomePage = () => {
   const theme = useTheme();
   console.log(theme);
   const { darkMode } = theme || {};
+  const [navbarPosition, setNavbarPosition] = useState('bottom');
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight) {
+        setNavbarPosition('top'); // الانتقال إلى الأعلى عند الوصول لنهاية الصفحة
+      } else {
+        setNavbarPosition('bottom'); // إبقاء الـ navbar في الأسفل في غير هذه الحالة
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     
       <div className={`  ${darkMode ? 'dark' : 'light'} `} >
 
         <Hero Dark={LogoDark} Light={LogoLight} />
-        <NavBar menu={menu} />
+        <NavBar menu={menu} navbarPosition={navbarPosition}/>
         <About />
         <Skills />
         <Projects />

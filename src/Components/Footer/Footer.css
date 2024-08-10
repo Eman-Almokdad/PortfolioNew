@@ -1,6 +1,6 @@
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     background: #4db5ff;
@@ -8,9 +8,9 @@
 .footer .social  {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 40%;
 }
 .footer p{
     font-size: 1.5rem;
@@ -20,8 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: .5rem;
-    width: .5rem;
+    height: 30px;
+    width: 30px;
     background: transparent;
     border-radius: 50%;
     font-size: 2rem;

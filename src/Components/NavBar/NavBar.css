@@ -11,6 +11,15 @@ nav{
     width: max-content;
     z-index: 2;
 }
+.navbar-bottom {
+    bottom: 2rem;
+    top: auto;
+  }
+  
+  .navbar-top {
+    
+    bottom: 126px;
+  }
 nav ul{
     display: flex;
     align-items: center;
