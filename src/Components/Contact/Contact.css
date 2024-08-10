@@ -71,7 +71,7 @@
     background: #0000;
     border: 2px solid #4db5ff66;
     border-radius: .8rem;
-    color: #fff;
+    color:var(--hover);
     padding: 1.5rem;
     resize: none;
     width: 100%;
