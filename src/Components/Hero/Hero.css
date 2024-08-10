@@ -80,7 +80,7 @@
 }
 
 .hero .hero-socials svg:hover {
-    color: #fff;
+    color: gray;
 }
 
 .hero .hero-socials::after {
