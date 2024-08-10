@@ -9,13 +9,14 @@
   background-color: #e8f4fd;
   color: #1f1f38;
   --hover: #1f1f38;
+  --input:#2c2c6c;
 }
 .dark {
   background-color: #1f1f38;
   background-image: url(./../src/assets/img/تنزيل.png);
   color: white;
   --hover: white;
-
+--input:#4db5ff66;
 }
 /* body {
   background-image: url(./../src/assets/img/تنزيل.png);
