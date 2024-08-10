@@ -8,7 +8,7 @@
 }
 .pt-128{
     padding: 0rem 5.625rem;
-    padding-top:128px;
+    padding-top:8rem;
 }
 
 .Details .container {
@@ -124,6 +124,24 @@
     color: #4db5ff;
     
 }
+.btn-arrow{
+    position: absolute;
+    top:6rem;
+    left:5.625rem ;
+    width: 60px;
+}
+.btn-arrow svg   {
+
+    width: 100% !important;
+    color: #2c2c6c;
+    object-fit: fill;
+}
+/* .btn-arrow svg path {
+    stroke-width: 100px;
+    height: 100px;
+    stroke: #2c2c6c;
+    fill:fill;
+  } */
 @media screen and (max-width:992px) {
     .Details .child{
         align-items: center;
@@ -153,7 +171,10 @@
 }
 .pt-128 {
     padding: 0rem 9px;
-    padding-top:8rem;
+    padding-top: 8rem;
+  }
+  .btn-arrow{
+    left:9px ;
   }
 }
 

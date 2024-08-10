@@ -30,13 +30,13 @@
 .Contact .container .left{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     
     gap: 15px;
 }
 .Contact .left div{
-    width: 250px;
-    /* width: 100%; */
+    /* width: 250px; */
+    width: 100%;
     background: #2c2c6c;
     border: 1px solid #0000;
     border-radius: 1.2rem;
@@ -94,9 +94,6 @@
 @media screen and (max-width:767px) {
     .Contact .container {
         grid-template-columns: repeat(1, 1fr);
-    }
-    .Contact .container .left{
-        align-items: center;
     }
 
 }

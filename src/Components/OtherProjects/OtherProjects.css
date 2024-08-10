@@ -1,13 +1,14 @@
 .OtherProjects {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
 }
-.OtherProjects h5 {
+.OtherProjects h3 {
     font-size: 0.83rem;
-    font-weight: bold;
+    font-weight: 500;
     color: gray;
     line-height: 1.7;
+    margin-bottom: 3rem;
 }
 
 .OtherProjects h2 {

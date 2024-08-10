@@ -7,6 +7,7 @@ import { useTheme } from '../ThemeProvider';
 import LogoDark from '../../assets/img/dark.svg'
 import LogoLight from '../../assets/img/light.svg'
 import OtherProjects from '../OtherProjects/OtherProjects';
+import { Link } from 'react-router-dom';
 
 
 const DetailsProjects = () => {
@@ -17,9 +18,9 @@ const DetailsProjects = () => {
     const card = details.find(card => card.id === parseInt(id));
     const imgArray = card.imgs
     const skillsarray = card.tools
-
     return (
         <div className={` ${darkMode ? 'dark' : 'light'}  ,  `}>
+            <Link to={`/`} className='btn-arrow'><i className="fa-solid fa-arrow-left fa-flip-vertical fa-2xl"></i></Link>
             <div className={`  , Details , pt-128 `} >
                 <div className='container'>
                     <div className='about-me'>
@@ -47,12 +48,13 @@ const DetailsProjects = () => {
                             })}
                             <a href={card.demo} className="btn btn-primary">Live Demo</a>
                             <a href={card.urlgh} className="btn btn-primary">Go To GitHub</a>
+
                         </div>
 
                     </div>
                 </div>
             </div>
-                            <OtherProjects/>
+            <OtherProjects />
             {/* <Projects /> */}
             <Footer Dark={LogoDark} Light={LogoLight} />
         </div>
