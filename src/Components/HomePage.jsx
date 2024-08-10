@@ -26,7 +26,7 @@ const HomePage = () => {
 
         <Certificates />
         <Contact />
-        <Footer />
+        <Footer Dark={LogoDark} Light={LogoLight} />
 
       </div>
     

@@ -4,6 +4,10 @@ import { details } from '../product';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
 import { useTheme } from '../ThemeProvider';
+import LogoDark from '../../assets/img/dark.svg'
+import LogoLight from '../../assets/img/light.svg'
+import OtherProjects from '../OtherProjects/OtherProjects';
+
 
 const DetailsProjects = () => {
     const theme = useTheme();
@@ -15,8 +19,8 @@ const DetailsProjects = () => {
     const skillsarray = card.tools
 
     return (
-        <div className={` ${darkMode ? 'dark' : 'light'}  , pt-128 `}>
-            <div className={`  , Details ,  `} >
+        <div className={` ${darkMode ? 'dark' : 'light'}  ,  `}>
+            <div className={`  , Details , pt-128 `} >
                 <div className='container'>
                     <div className='about-me'>
                         <div className='container-img'>
@@ -48,8 +52,9 @@ const DetailsProjects = () => {
                     </div>
                 </div>
             </div>
-            <Projects />
-            <Footer />
+                            <OtherProjects/>
+            {/* <Projects /> */}
+            <Footer Dark={LogoDark} Light={LogoLight} />
         </div>
     )
 }

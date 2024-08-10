@@ -14,7 +14,9 @@ import furniture2 from '../assets/img/furniture2.png'
 import furniture3 from '../assets/img/furniture3.png'
 import furniture4 from '../assets/img/furniture4.png'
 
-
+import Book1 from '../assets/img/Books1.png'
+import Book2 from '../assets/img/books2.png'
+import Book3 from '../assets/img/books3.png'
 export const menu = [{ title: "#Home", icon: "fa-solid fa-house-user" },
 { title: "#About", icon: "fa-solid fa-circle-info" },
 { title: "#Skills", icon: "fa-solid fa-screwdriver-wrench" },
@@ -33,11 +35,21 @@ export const details = [
         "description": 'A multi-page website that sells healthy foods and many services ',
         "imgs": [imgfood, food2, food3, food4, food5, food6],
         "urlgh": 'https://github.com/Eman-Almokdad/healthy-food-website',
-        "tools": ["Nextjs ", " Mongodb ", "Reactjs ", "CSS ", "HTML"],
+        "tools": ["Nextjs ", " Mongodb ", "Reactjs ","Bootstrap", "CSS ", "HTML"],
+    },
+    {
+        img: Book1,
+        id: 2,
+        title: "Books Store Website",
+        demo: "https://books-store-eman.vercel.app/",
+        "description": 'A single-page website for displaying and selling books ',
+        "imgs": [Book2 , Book3],
+        "urlgh": 'https://github.com/Eman-Almokdad/BooksStore.git',
+        "tools": ["Reactjs ","API ","CSS ", "HTML" ],
     },
     {
         img: imgtravel,
-        id: 2,
+        id: 3,
         title: "Travel Website",
         demo: "https://eman-almokdad.github.io/react1/",
         "description": 'A multi-page website that sells displaying and selling trips ',
@@ -47,7 +59,7 @@ export const details = [
     },
     {
         img: imgfurniture,
-        id: 3,
+        id: 4,
         title: "Furniture Website",
         demo: "https://eman-almokdad.github.io/task5/",
         "description": 'A single-page website for displaying and selling furniture',
@@ -55,6 +67,7 @@ export const details = [
         "urlgh": 'https://github.com/Eman-Almokdad/task5',
         "tools": ["CSS ", "HTML"],
     },
+    
 
 ]
 

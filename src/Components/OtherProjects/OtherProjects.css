@@ -1,0 +1,48 @@
+.OtherProjects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.OtherProjects h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+    color: gray;
+    line-height: 1.7;
+}
+
+.OtherProjects h2 {
+    margin-bottom: 3rem;
+    color: #4db5ff;
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
+
+.OtherProjects .portfolio-container {
+    width: 100%;
+        grid-gap: 2.5rem;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.OtherProjects .circle{
+    background-color: #4db5ff;
+    width: 100%;
+    height: 250px;
+    border-radius: 50%;
+}
+.OtherProjects .circle img{
+    width: 100%;
+    height: 250px;
+object-fit: cover;
+border-radius: 50%;
+}
+@media screen and (max-width:767px) {
+    .OtherProjects .portfolio-container {
+        width: 100%;
+            grid-gap: 2.5rem;
+        display: grid;
+        gap: 2.5rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

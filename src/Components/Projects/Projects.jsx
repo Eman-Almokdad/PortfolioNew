@@ -1,6 +1,4 @@
 import './Projects.css'
-
-import { Link } from 'react-router-dom'
 import { details } from '../product'
 import Slider from './Slider'
 const Projects = () => {

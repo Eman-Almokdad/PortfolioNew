@@ -2,11 +2,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0rem 5.625rem;
+    
 
 
 }
 .pt-128{
+    padding: 0rem 5.625rem;
     padding-top:128px;
 }
 
@@ -150,4 +151,9 @@
     
     justify-content: center;
 }
+.pt-128 {
+    padding: 0rem 9px;
+    padding-top:8rem;
+  }
 }
+
