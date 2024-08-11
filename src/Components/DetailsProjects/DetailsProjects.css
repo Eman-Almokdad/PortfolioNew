@@ -128,11 +128,11 @@
     position: absolute;
     top:4.5rem;
     left:5.625rem ;
-    width: 60px;
+    /* width: 60px; */
 }
 .btn-arrow svg   {
 
-    width: 100% !important;
+    /* width: 100% !important; */
     color: #2c2c6c;
     object-fit: fill;
 }
