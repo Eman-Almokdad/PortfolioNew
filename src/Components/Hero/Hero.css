@@ -74,7 +74,9 @@
     left: 5.625rem;
     position: absolute;
 }
-
+.hero .toggleTheme{
+    cursor: pointer;
+}
 .hero .hero-socials svg {
     color: #4db5ff;
 }
