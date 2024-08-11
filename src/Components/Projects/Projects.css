@@ -81,6 +81,7 @@
     transition: all .4s ease;
     width: max-content;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .Projects .portfolio-cta .btn-primary {
