@@ -52,7 +52,7 @@ const DetailsProjects = () => {
                 </div>
             </div>
             <OtherProjects />
-            <Footer Dark={'../../public/img/dark.svg'} Light={'../../public/img/light.svg'} />
+            <Footer Dark={'/img/dark.svg'} Light={'/img/light.svg'} />
         </div>
     )
 }

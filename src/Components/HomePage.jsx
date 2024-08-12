@@ -32,7 +32,7 @@ const HomePage = () => {
     
       <div className={`  ${darkMode ? 'dark' : 'light'} `} >
 
-        <Hero Dark={"../../public/img/dark.svg"} Light={"../../public/img/light.svg"} />
+        <Hero Dark={"/img/dark.svg"} Light={"/img/light.svg"} />
         <NavBar menu={menu} navbarPosition={navbarPosition}/>
         <About />
         <Skills />
@@ -40,7 +40,7 @@ const HomePage = () => {
 
         <Certificates />
         <Contact />
-        <Footer Dark={"../../public/img/dark.svg"} Light={"../../public/img/light.svg"} />
+        <Footer Dark={"/img/dark.svg"} Light={"/img/light.svg"} />
 
       </div>
     

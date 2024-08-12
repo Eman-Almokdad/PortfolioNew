@@ -13,7 +13,7 @@
 }
 .dark {
   background-color: #1f1f38;
-  background-image: url(../../public/img/تنزيل.png);
+  background-image: url(/img/تنزيل.png);
   color: white;
   --hover: white;
 --input:#4db5ff66;
