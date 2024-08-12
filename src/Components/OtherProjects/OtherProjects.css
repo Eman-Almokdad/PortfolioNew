@@ -13,7 +13,7 @@
 
 .OtherProjects h2 {
     margin-bottom: 3rem;
-    color: #2c2c6c;
+    color: #4db5ff;
     font-weight: 500;
     line-height: 1.7;
     font-size: 1.5rem;
@@ -27,7 +27,7 @@
     grid-template-columns: repeat(4, 12.5rem);
 }
 .OtherProjects .circle{
-    background-color: #4db5ff;
+    
     width: 100%;
     height: 12.5rem;
     border-radius: 50%;

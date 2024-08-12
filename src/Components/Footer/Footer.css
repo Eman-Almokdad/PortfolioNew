@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background: #4db5ff;
+    background: #2c2c6c;
 }
 .footer .social  {
 
@@ -16,7 +16,7 @@
     font-size: 1.5rem;
 }
 .footer .social a {
-    color: black;
+    color: #fff9;
     display: flex;
     justify-content: center;
     align-items: center;
