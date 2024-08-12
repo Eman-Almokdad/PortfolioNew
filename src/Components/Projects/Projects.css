@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .Projects h5 {
-    font-size: 0.83rem;
+    font-size: 1.125rem;
     font-weight: bold;
     color: gray;
     line-height: 1.7;
@@ -21,6 +22,7 @@
 
 .Projects .portfolio-container {
     width: 100%;
+    
     /*     grid-gap: 2.5rem;
     display: grid;
     gap: 2.5rem;
@@ -33,6 +35,7 @@
     border-radius: 2rem;
     padding: 1.3rem;
     transition: all 0.4s ease;
+    margin-bottom: 30px;
 }
 
 .Projects .portfolio-item:hover {
@@ -47,7 +50,7 @@
 }
 
 .Projects .portfolio-image {
-    border-radius: .3rem;
+    border-radius: 2rem;
     height: 280px;
     overflow: hidden;
     width: 100%;
@@ -81,7 +84,7 @@
     transition: all .4s ease;
     width: max-content;
     text-decoration: none;
-    margin-bottom: 10px;
+    
 }
 
 .Projects .portfolio-cta .btn-primary {
@@ -100,4 +103,9 @@
 
 .Projects .portfolio-cta a:hover {
     color: #fff;
+}
+.swiper-pagination-bullets{
+    
+    bottom: 0px !important;
+    z-index: 9999;
 }

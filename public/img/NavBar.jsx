@@ -6,7 +6,7 @@ import { menu } from '../../lib/navlink'
 import logo from '../../assets/images/logo.png'
 import esc from '../../assets/images/esc.svg'
 import menuicon from '../../assets/images/Menu.svg'
-import { useTheme } from '../../App'
+import { useTheme } from '../../src/App'
 import { NavHashLink } from 'react-router-hash-link'
 const NavBar = ({Dark , Light}) => {
     const [first, setfirst] = useState(false)

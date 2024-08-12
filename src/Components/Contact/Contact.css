@@ -7,7 +7,7 @@
 }
 
 .Contact h5 {
-    font-size: 0.83rem;
+    font-size: 1.125rem;
     font-weight: bold;
     color: gray;
     line-height: 1.7;
@@ -60,6 +60,7 @@
 .Contact .left h4 , .Contact .left h5{
     font-weight: 500;
     color: #fff;
+    font-size: 1.15rem;
 }
 .Contact form {
     display: flex;

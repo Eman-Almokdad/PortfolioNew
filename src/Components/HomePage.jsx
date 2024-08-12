@@ -2,13 +2,11 @@ import Hero from './Hero/Hero'
 import About from './About/About'
 import Skills from './Skills/Skills'
 import Projects from './Projects/Projects'
-import { menu } from './product'
+import { menu } from './data'
 import NavBar from './NavBar/NavBar'
 import Certificates from './Certificates/Certificates'
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer'
-import LogoDark from '../assets/img/dark.svg'
-import LogoLight from '../assets/img/light.svg'
 import { ThemeProvider, useTheme } from './ThemeProvider'
 import { useEffect, useState } from 'react'
 const HomePage = () => {
@@ -34,7 +32,7 @@ const HomePage = () => {
     
       <div className={`  ${darkMode ? 'dark' : 'light'} `} >
 
-        <Hero Dark={LogoDark} Light={LogoLight} />
+        <Hero Dark={"../../public/img/dark.svg"} Light={"../../public/img/light.svg"} />
         <NavBar menu={menu} navbarPosition={navbarPosition}/>
         <About />
         <Skills />
@@ -42,7 +40,7 @@ const HomePage = () => {
 
         <Certificates />
         <Contact />
-        <Footer Dark={LogoDark} Light={LogoLight} />
+        <Footer Dark={"../../public/img/dark.svg"} Light={"../../public/img/light.svg"} />
 
       </div>
     

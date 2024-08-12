@@ -1,11 +1,8 @@
 import './DetailsProjects.css'
 import { useParams } from 'react-router-dom';
-import { details } from '../product';
-import Projects from '../Projects/Projects';
+import { details } from '../data';
 import Footer from '../Footer/Footer';
 import { useTheme } from '../ThemeProvider';
-import LogoDark from '../../assets/img/dark.svg'
-import LogoLight from '../../assets/img/light.svg'
 import OtherProjects from '../OtherProjects/OtherProjects';
 import { Link } from 'react-router-dom';
 
@@ -55,8 +52,7 @@ const DetailsProjects = () => {
                 </div>
             </div>
             <OtherProjects />
-            {/* <Projects /> */}
-            <Footer Dark={LogoDark} Light={LogoLight} />
+            <Footer Dark={'../../public/img/dark.svg'} Light={'../../public/img/light.svg'} />
         </div>
     )
 }

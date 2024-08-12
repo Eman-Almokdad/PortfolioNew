@@ -1,5 +1,5 @@
 import './OtherProjects.css'
-import { details } from '../product'
+import { details } from '../data'
 import { Link } from 'react-router-dom'
 const OtherProjects = () => {
   return (

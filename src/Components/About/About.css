@@ -7,7 +7,7 @@
 }
 
 .About h5 {
-    font-size: 0.83rem;
+    font-size: 1.125rem;
     font-weight: bold;
     color: gray;
     line-height: 1.7;
@@ -56,7 +56,8 @@
     width: 50%;
     /* color: #fff9; */
     margin: 2rem 0 2.6rem;
-    line-height: 1.7;
+    line-height: 1.9;
+    font-size: 1.125rem;
 }
 
 @media screen and (max-width:767px) {

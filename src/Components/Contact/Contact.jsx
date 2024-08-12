@@ -1,5 +1,5 @@
 import './Contact.css'
-import { contactBox } from '../product'
+import { contactBox } from '../data'
 const Contact = () => {
     return (
         <div className='Contact space' id='Contact'>

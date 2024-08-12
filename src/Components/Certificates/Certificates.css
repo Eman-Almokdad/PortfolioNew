@@ -7,7 +7,7 @@
 }
 
 .Certificates h5 {
-    font-size: 0.83rem;
+    font-size: 1.125rem;
     font-weight: bold;
     color: gray;
     line-height: 1.7;
@@ -50,13 +50,13 @@
     color: var(--hover)
 }
 .Certificates .container p{
-    font-size: 0.83rem;
+    font-size: 1.125rem;
     font-weight: bold;
     color: #4db5ff;
 
 }
 .Certificates .container h3{
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: bold;
     color: white;
     line-height: 1.7;

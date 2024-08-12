@@ -1,5 +1,4 @@
 import './About.css'
-import photo from '../../assets/img/about.jpg'
 const About = () => {
     return (
         <div className='About space' id='About'>
@@ -8,7 +7,7 @@ const About = () => {
             <div className='container'>
                 <div className='about-me'>
                     <div className='container-img'>
-                        <img src={photo} alt="" />
+                        <img src='../../public/img/about.jpg' alt="" />
                     </div>
                 </div>
                 <h4 className='container-text'>

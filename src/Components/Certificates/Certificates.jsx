@@ -1,5 +1,5 @@
 import './Certificates.css'
-import { CertificatesCards } from '../product'
+import { CertificatesCards } from '../data'
 const Certificates = () => {
     return (
         <div className='Certificates space' id='Certificates'>

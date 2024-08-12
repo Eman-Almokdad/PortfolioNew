@@ -1,5 +1,5 @@
 import './Projects.css'
-import { details } from '../product'
+import { details } from '../data'
 import Slider from './Slider'
 const Projects = () => {
 
