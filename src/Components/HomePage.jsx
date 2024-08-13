@@ -11,7 +11,6 @@ import { ThemeProvider, useTheme } from './ThemeProvider'
 import { useEffect, useState } from 'react'
 const HomePage = () => {
   const theme = useTheme();
-  console.log(theme);
   const { darkMode } = theme || {};
   const [navbarPosition, setNavbarPosition] = useState('bottom');
   useEffect(() => {

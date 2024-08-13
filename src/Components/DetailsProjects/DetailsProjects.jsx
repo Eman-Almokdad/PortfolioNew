@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
 
 const DetailsProjects = () => {
     const theme = useTheme();
-    console.log(theme);
     const { darkMode } = theme || {};
     const { id } = useParams();
     const card = details.find(card => card.id === parseInt(id));
