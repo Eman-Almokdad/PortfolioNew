@@ -7,7 +7,7 @@ const About = () => {
             <div className='container'>
                 <div className='about-me'>
                     <div className='container-img'>
-                        <img src='/img/about.jpg' alt="" />
+                        <img src='/img/about.webp' alt="" />
                     </div>
                 </div>
                 <h4 className='container-text'>
