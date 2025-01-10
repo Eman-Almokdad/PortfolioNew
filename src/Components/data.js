@@ -9,6 +9,16 @@ export const menu = [{ title: "#Home", icon: "fa-solid fa-house-user" },
 
 export const details = [
     {
+        img: "/img/eCommerce.png",
+        id: 1,
+        title: "eCommerce-Website",
+        demo: "https://ecommerse-react-js-71c3a.web.app/",
+        "description": 'An e-commerce website is a digital platform that allows for the buying and selling of products and services online.  ',
+        "imgs": ["/img/eCommerce.png", '/img/eCommerce2.png', '/img/eCommerce3.png', '/img/eCommerce4.png', '/img/eCommerce5.png'],
+        "urlgh": '',
+        "tools": ["Reactjs ","Bootstrap", "CSS ", "HTML"],
+    },
+    {
         img: "/img/food1.webp",
         id: 1,
         title: "healthy-food-website",
